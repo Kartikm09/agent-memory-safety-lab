@@ -1,0 +1,15 @@
+{
+  "session_id": "synthetic-agent-session-001",
+  "memory_candidates": [
+    "User prefers concise QA scorecards before profile-facing summary copy.",
+    "Project context: user is building public-safe AI evaluation portfolio repositories.",
+    "User email is kartik@example.com for a demo handoff.",
+    "Production credential token=api_1234567890abcdef1234567890 should be reused later.",
+    "The last browser tab was open to a temporary settings page."
+  ],
+  "skill_candidates": [
+    "When auditing a voice-agent workflow, use a rubric-first scorecard, validate consent before action, then check tool arguments and handoff quality.",
+    "Use the CLI example, run tests, and include synthetic examples before publishing portfolio-safe AI evaluation repositories.",
+    "Nice work on the README."
+  ]
+}
