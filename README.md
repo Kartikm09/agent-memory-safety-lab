@@ -71,3 +71,7 @@ This project demonstrates:
 ## Public-Safe Note
 
 All examples are synthetic. Do not place real secrets, private client data, OTPs, cookies, or production session logs in this repository.
+
+## Export boundary
+
+JSON and text reports use the redacted preview for detected sensitive values. The original remains in the caller-owned input and in-memory `CandidateAudit.text`; it is not repeated in `to_dict()` exports. This is a pattern-based detector with known coverage limits, not a guarantee that all private information is found.
