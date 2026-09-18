@@ -40,7 +40,7 @@ class CandidateAudit:
 
     def to_dict(self) -> dict[str, Any]:
         return {
-            "text": self.text,
+            "text": self.redacted_text,
             "decision": self.decision,
             "risk": self.risk,
             "redacted_text": self.redacted_text,
